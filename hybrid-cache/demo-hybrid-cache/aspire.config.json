@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "demo-hybrid-cache.AppHost/demo-hybrid-cache.AppHost.csproj"
+  }
+}

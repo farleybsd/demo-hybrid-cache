@@ -22,4 +22,8 @@
     <Folder Include="Infrastructure\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\demo-hybrid-cache\demo-hybrid-cache.ServiceDefaults\demo-hybrid-cache.ServiceDefaults.csproj" />
+  </ItemGroup>
+
 </Project>

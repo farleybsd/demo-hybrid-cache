@@ -2,4 +2,6 @@
   <Folder Name="/Src/">
     <Project Path="hybrid-cache.Api/hybrid-cache.Api.csproj" />
   </Folder>
+  <Project Path="demo-hybrid-cache/demo-hybrid-cache.AppHost/demo-hybrid-cache.AppHost.csproj" />
+  <Project Path="demo-hybrid-cache/demo-hybrid-cache.ServiceDefaults/demo-hybrid-cache.ServiceDefaults.csproj" />
 </Solution>

@@ -3,6 +3,8 @@ using hybrid_cache.Api.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 // Add services to the container.
 builder.Services.AddSqlServerDb(builder.Configuration);
 builder.Services.AddRedis(builder.Configuration);
@@ -13,6 +15,8 @@ builder.Services.AddRepository();
 builder.Services.AddFastEndpoints();
 builder.Services.AddSwaggerConfig();
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 app.UseFastEndpoints();
